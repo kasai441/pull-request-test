@@ -1,5 +1,6 @@
 var sortNumber = function (number) {
 		number.sort(function (a, b) {
+				// changed === from ==
 				if (a === b) {
 						return 0;
 				}
