@@ -1,6 +1,7 @@
 var sortNumber = function (number) {
 		number.sort(function (a, b) {
 				// changed === from ==
+				// 厳密等価演算子に修正
 				if (a === b) {
 						return 0;
 				}
