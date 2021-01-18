@@ -1,0 +1,1 @@
+echo MY_TOKEN="secret" | ssh-valult -u kasai441 create > my-encrypted-vars.ssh
